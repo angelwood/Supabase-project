@@ -1,0 +1,17 @@
+# Initialize git if not already done
+
+git init
+# Add all current files
+
+git add .
+# Commit changes
+
+git commit -m 
+"Initial Supabase project setup"
+
+# Link to GitHub repository
+
+git remote add origin https://github.com/YOUR_GITHUB_USERNAME/supabase-project.git
+# Push to GitHub
+
+git push -u origin main
